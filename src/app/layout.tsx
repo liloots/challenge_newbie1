@@ -1,5 +1,5 @@
 import './globals.css'
-import { Montserrat, Fraunces } from '@next/font/google'
+import { Montserrat, Fraunces } from 'next/font/google'
 import { DefaultBody } from '../components/default-page-layout'
 
 const montserrat = Montserrat({ 
