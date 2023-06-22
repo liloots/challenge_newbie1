@@ -1,7 +1,7 @@
 import "./globals.css";
 import { Montserrat, Fraunces } from "next/font/google";
 import { DefaultBody } from "../components/default-page-layout";
-import StyledComponentsRegistry from "./lib/registry";
+import StyledComponentsRegistry from "../lib/registry";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
