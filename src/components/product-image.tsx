@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image";
 import styled from "styled-components";
 import imgUrl from "../../public/images/product.jpg";
@@ -20,5 +22,5 @@ export const ImgTest = styled(Image)`
 `;
 
 export function ProductImage() {
-  return <ImgTest src={imgUrl} style={imgStyle} />;
+  return <ImgTest src={imgUrl} style={imgStyle} alt={"Imagem do Perfume"} />;
 }
